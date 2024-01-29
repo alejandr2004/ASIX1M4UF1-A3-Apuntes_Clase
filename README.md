@@ -8,6 +8,56 @@ También sirve el uso de guiones bajos _ .Ejemplos: _Hoy es martes_,_Mañana nev
 Para escribir en negrita haremos uso de dos ** o de dos __. Ejemplos: **Buenas tardes**,__El dia es triste__.
 También podemos hacer un uso combinado de las dos (negrita y cursiva).Esto lo realizamos con _* en la apertura y *_ en el cierre.Ejemplos:_*Hola*_,_*Ahí*_
 
+
+BLOQUE DE GITHUB
+
+Github es un lugar en el cual podremos pasar nuestros archivos realizados en visual studio code. Esto es de suma importancia ya que es 
+un sitio que permite que otras personas puedan ver nuestros repositorios, editarlos e, incluso, colaborar en ellos.
+
+Nos será muy útil para subir nuestros proyectos a la nube  o compartirlos mediante un enlace al sitio web, a esto le añadimos que si 
+nuestra copia en local se corrompe o daña siempre la podremos rescatar de nuestra copia sincronizada en GitHub.
+
+Para utilizar GitHub necesitaremos crear una cuenta nueva, una vez creada veremos que tenemos diversas opciones, entre ellas, podremos 
+crear directorios nuevos (pongámonos en este caso). Una vez que crees tu directorio verás que tiene una especie de enlace que nos 
+servirá para clonar el archivo en local, esto se hará de la siguiente manera: 
+
+Crearemos una carpeta que almacene los repositorios en local ( a más cerca de raíz este la carpeta, mejor), una vez creada deberemos 
+acceder al "cmd" e inicializar GitHub con el comando "Git init" (todos los comandos de GitHub comienzan con "Git"). Una vez 
+inicializado deberemos utilizar el comando "Git clone" (GitHub no es "key sensitive", no importará si se escriben los comandos con 
+mayúsculas iniciales o  no) para así clonarlo en local.
+
+Ahora deberemos seleccionar los cambios que queremos sobreescribir con el "Git add", como es la primera vez que usamos  este directorio 
+deberemos sincronizarla todo (esto se logra con el asterisco)
+
+Una vez hecho esto  deberemos guardar los cambios con el comando "Git commit" y, a continuación el nombre que recibirá esa 
+actualización de datos, esta se hará con "-m". Ejemplo:
+
+-Git commit -m "Actualización 1"
+
+Este proceso nos servirá para guardar y sincronizar todos los repositorios que queramos.
+
+Para compartir un repositorio deberemos compartir el enlace de la página del repositorio de GitHub pero, si solo queremos mostrar el 
+contenido deberemos hacer uso de GitHub Pages. Esta herramienta dentro de la configuración nos permite acceder a la visualización del 
+contenido de un repositorio a través de un enlace generado por la propia página. Muy útil a la hora de realizar una entrega o presentar 
+algún proyecto.
+
+En cuanto a la estructura de repositorios es importante que estos se encuentren organizados jerárquicamente y de forma ordenada y 
+entendible, también deben tener nombres claros y sin espacios en blanco o mayúsculas ya que podrían generar algún error en la sintaxis 
+del código.
+
+En la creación de un archivo podremos seleccionar si este será público (todo el mundo podrá ver, modificar o interactuar con el archivo 
+si tú lo deseas) o privado (tú serás el único con acceso a ese archivo). Esta decisión es importante ya que será permanente y no se 
+podrá modificar más adelante. Si los usuarios tienen acceso o no a tus archivos determinará si puedes colaborar con ellos, así que 
+piénsalo bien para adaptarte a tus necesidades.
+
+Ahora hablaremos de las ramas de desarrollo. Cuanto estes editando un archivo estarás por defecto en la rama "main". Eso significa que 
+tu eres el único capaz de modificar ese archivo y hacer los cambios pertinentes. Si quieres que varias personas colaboren en tu archivo 
+deberás modificar la rama de desarrollo para que varias personas también puedan influir en tu trabajo. Como he dicho antes si tienes el 
+archivo en privado la opción de modificar la rama estará desabilitada y solo podrás trabajar en "main".
+
+BLOQUE DE MARKDOWN
+
+
 En Markdown podemos hacer listas ordenadas y desordenadas(al igual que CSS).
 Para realizar una lista ordenada simplemente deberemos numerar al lado del elemento y, automáticamente, el número se volverá azul
 (entendiendo que es una lista).Ejemplo:
@@ -312,7 +362,7 @@ variará en función de donde las ubiquemos (head, body o foot). Se utilizará  
 manera, si queremos escribir elementos dentro de la etiqueta <tr> de forma secuencial y ordenada utilizaremos esa etiqueta. Ahora y 
 para el <tbody> la cosa cambia un poco ya que la etiqueta utilizada será <td>.
 
-
+BLOQUE DE CSS
 
 Muchas veces nuestro código se ve saturado por el uso de demasiadas líneas de código dentro de un solo archivo html. Esto puede 
 provocar que nos confundamos, cometamos errores o no entendamos muy bien como está estructurado. Sí, existen diferentes recursos dentro 
@@ -424,7 +474,7 @@ Esto según donde lo apliques dentro del HTML podrá modificar una parte del tex
 
 
 
-FLOAT Y DISPLAY FLEX
+BLOQUE DE DISEÑO RESPONSIVE
 
 
 Estas son dos estructuras que nos permiten ordenar contenedores o "divs" a nuestro antojo.
@@ -438,10 +488,6 @@ También puede resultar de utilidad combinarlo con los recursos de Bootstrap y s
 
 Por último, si queremos que toda nuestra estructura de contenedores y filas "encaje" deberemos utilizar la propiedad "box-sizing:box". En clase no hemos recibido una mayor explicaciób de sus usos.
 
-
-DISEÑO RESPONSIVE
-
-
 Este diseño nos permite adaptar el formato en el que se verá nuestro sitio web según la pantalla del dispositivo (por ejemplo, si tenemos un smartphone habrá filas que quedarán muy compactas y si tenemos una televisión gigante puede que la integridad se vea afectada.)
 
 Para evitar esto utilizaremos la propiedad "media query", la cual nos permite aplicar ciertos atributos o estilos según el tamaño de nuestra pantalla, así podremos trastear según el tipo de pantalla y adaptar nuestro html según nos sea conveniente.
@@ -451,51 +497,6 @@ Para delimitar el tamaño del dispositivo al que queremos modificar lo único qu
 
 
 
-BLOQUE DE GITHUB
-
-Github es un lugar en el cual podremos pasar nuestros archivos realizados en visual studio code. Esto es de suma importancia ya que es 
-un sitio que permite que otras personas puedan ver nuestros repositorios, editarlos e, incluso, colaborar en ellos.
-
-Nos será muy útil para subir nuestros proyectos a la nube  o compartirlos mediante un enlace al sitio web, a esto le añadimos que si 
-nuestra copia en local se corrompe o daña siempre la podremos rescatar de nuestra copia sincronizada en GitHub.
-
-Para utilizar GitHub necesitaremos crear una cuenta nueva, una vez creada veremos que tenemos diversas opciones, entre ellas, podremos 
-crear directorios nuevos (pongámonos en este caso). Una vez que crees tu directorio verás que tiene una especie de enlace que nos 
-servirá para clonar el archivo en local, esto se hará de la siguiente manera: 
-
-Crearemos una carpeta que almacene los repositorios en local ( a más cerca de raíz este la carpeta, mejor), una vez creada deberemos 
-acceder al "cmd" e inicializar GitHub con el comando "Git init" (todos los comandos de GitHub comienzan con "Git"). Una vez 
-inicializado deberemos utilizar el comando "Git clone" (GitHub no es "key sensitive", no importará si se escriben los comandos con 
-mayúsculas iniciales o  no) para así clonarlo en local.
-
-Ahora deberemos seleccionar los cambios que queremos sobreescribir con el "Git add", como es la primera vez que usamos  este directorio 
-deberemos sincronizarla todo (esto se logra con el asterisco)
-
-Una vez hecho esto  deberemos guardar los cambios con el comando "Git commit" y, a continuación el nombre que recibirá esa 
-actualización de datos, esta se hará con "-m". Ejemplo:
-
--Git commit -m "Actualización 1"
-
-Este proceso nos servirá para guardar y sincronizar todos los repositorios que queramos.
-
-Para compartir un repositorio deberemos compartir el enlace de la página del repositorio de GitHub pero, si solo queremos mostrar el 
-contenido deberemos hacer uso de GitHub Pages. Esta herramienta dentro de la configuración nos permite acceder a la visualización del 
-contenido de un repositorio a través de un enlace generado por la propia página. Muy útil a la hora de realizar una entrega o presentar 
-algún proyecto.
-
-En cuanto a la estructura de repositorios es importante que estos se encuentren organizados jerárquicamente y de forma ordenada y 
-entendible, también deben tener nombres claros y sin espacios en blanco o mayúsculas ya que podrían generar algún error en la sintaxis 
-del código.
-
-En la creación de un archivo podremos seleccionar si este será público (todo el mundo podrá ver, modificar o interactuar con el archivo 
-si tú lo deseas) o privado (tú serás el único con acceso a ese archivo). Esta decisión es importante ya que será permanente y no se 
-podrá modificar más adelante. Si los usuarios tienen acceso o no a tus archivos determinará si puedes colaborar con ellos, así que 
-piénsalo bien para adaptarte a tus necesidades.
-
-Ahora hablaremos de las ramas de desarrollo. Cuanto estes editando un archivo estarás por defecto en la rama "main". Eso significa que 
-tu eres el único capaz de modificar ese archivo y hacer los cambios pertinentes. Si quieres que varias personas colaboren en tu archivo 
-deberás modificar la rama de desarrollo para que varias personas también puedan influir en tu trabajo. Como he dicho antes si tienes el 
-archivo en privado la opción de modificar la rama estará desabilitada y solo podrás trabajar en "main".
 
 
 
