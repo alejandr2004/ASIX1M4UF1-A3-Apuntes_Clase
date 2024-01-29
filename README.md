@@ -289,11 +289,11 @@ body > div > p strong {
 ```
 
 Ignoremos el contenido de las etiquetas, lo explicaré más adelante en estilos CSS. Vemos que la etiqueta <body> es la "padre" o la que 
-engloba a todas. Dentro de ella está la etiqueta <div> que es la etiqueta hijo y, dentro de esta <p> y <strong>, las etiquetas 
+engloba a todas. Dentro de ella está la etiqueta <div> que es la etiqueta hijo y, dentro de esta p y strong, las etiquetas 
 descendientes. El signo mayor que > indica que aquello que viene después PERTENECE A LA ETIQUETA ANTERIOR, es decir <body> es poseedor 
 de todas las demás etiquetas, en este caso.
-Vemos que esta sintaxis no aplica en <strong>, y esto tiene un significado. Lo que está indicando es, TODO LO QUE CONTENGA LA ETIQUETA 
-<strong> RESULTARÁ AFECTADO.Si esto sucediera en la etiqueta <div> estariamos indicando que, INDEPENDIENTEMENTE DEL ORDEN DE 
+Vemos que esta sintaxis no aplica en strong, y esto tiene un significado. Lo que está indicando es, TODO LO QUE CONTENGA LA ETIQUETA 
+strong RESULTARÁ AFECTADO.Si esto sucediera en la etiqueta <div> estariamos indicando que, INDEPENDIENTEMENTE DEL ORDEN DE 
 DESCENDENCIA (a partir de esa asignación), todas las etiquetas <div> sean afectadas.
 
 
