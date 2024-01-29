@@ -132,16 +132,16 @@ Se pueden añadir diferentes atributos y etiquetas que veremos más adelante
 </body>
 ```
 La parte del body viene vacía pero en este ejemplo he añadido algunas etiquetas básicas que explicaré:
-La etiqueta <h1> permite establecer un texto como encabezado y le establece un tamaño.Este tamaño será más grande o más pequeño 
+La etiqueta h1 permite establecer un texto como encabezado y le establece un tamaño.Este tamaño será más grande o más pequeño 
 dependiendo del número asociado a la etiqueta h (hay de h1 a h6, de manera que h1 es la etiqueta más grande y h6 la más pequeña).
 Como he dicho html funciona con *etiquetas* pero es importante saber que dentro de diversas etiquetas se pueden establecer *atributos*.
 Estos, de cierta forma, se encargan de modificar una etiqueta(a continuación lo veremos claro con el ejemplo)
-La etiqueta <h2> en el caso del ejemplo contiene el atributo "id" que servirá para referenciar un elemento en específico que estará más 
+La etiqueta h2 en el caso del ejemplo contiene el atributo "id" que servirá para referenciar un elemento en específico que estará más 
 adelante dentro de ese body.
 Todas las etiquetas que hay dentro de este body las explicaré más adelante ya que el único uso que quería darle ha sido para explicar 
 como sería un "body" en la práctica.
 
-Antes de continuar debo hacer un inciso sobre las etiquetas, y es que estas tienen una opertura <body> y un cierre </body>.Este cierre 
+Antes de continuar debo hacer un inciso sobre las etiquetas, y es que estas tienen una opertura body y un cierre /body.Este cierre 
 se hace escribiendo una barra / y el nombre de la etiqueta (cabe resaltar que también hay etiquetas autocerrables).
 
 Ahora que sabemos como se estructura un archivo html hablaremos de sus diversas etiquetas. Comenzaremos con un elemento que también se 
@@ -189,11 +189,11 @@ Antes de continuar explicaré algunas etiquetas que considero básicas dentro de
 
 -La etiqueta <br> que establece una línea de espacio en el texto
 <br>;)
--La etiqueta <strong> que establece el texto en negrita
+-La etiqueta strong que establece el texto en negrita
 
--La etiqueta <hr> (horizontal line) escribe una línea horizontal
+-La etiqueta hr (horizontal line) escribe una línea horizontal
 
--La etiqueta <blockquote> que sirve para citar
+-La etiqueta blockquote que sirve para citar
 
 Y para comentar se escribe dentro de este bloque <!-- -->. Ejemplo <!--Mario RPG tiene una dificultad demasiado baja-->
 
@@ -232,7 +232,7 @@ Ahora explicaré las diferentes formas que existen de agrupar ítems o referenci
 
 Existen tres selectores: id (único) de clase (varios) y universal (todos).
 
-Si tenemos un título en una etiqueta <h1> y queremos que este se vea de color azul (más adelante explicaré todo lo referente a estilos) 
+Si tenemos un título en una etiqueta h1 y queremos que este se vea de color azul (más adelante explicaré todo lo referente a estilos) 
 deberemos referenciarlo de alguna forma esto lo haremos gracias a "id".Este es un *identificador único* en el que deberemos introducir 
 con una almoadilla # como queremos que se reconozca. Ejemplo: tenemos un id=patata, para referenciarlo deberemos utilizar la almodilla 
 (a href=#patata).
@@ -420,6 +420,34 @@ utilizando "font-family".Ejemplo:
 font-family: Arial, sans-serif;
 
 ```
+Esto según donde lo apliques dentro del HTML podrá modificar una parte del texto en específico o toda
+
+
+
+FLOAT Y DISPLAY FLEX
+
+
+Estas son dos estructuras que nos permiten ordenar contenedores o "divs" a nuestro antojo.
+Float permite seleccionar la estructura en la cual se irán posicionando los contenedores, pueden ser uno delante de otro, hacia abajo, hacia arriba...
+
+En cambio, la propiedad display, nos permite crear filas con su atributo "flex" el cual creará una fila en la cual podremos ir posicionando los contenedores en el orden que queramos gracias a la anterior propiedad float.
+
+Estas estructuras son muy útiles para crear páginas web más serias y bien estructuradas, podríamos combinarlo con enlaces que nos lleven a diferentes contenedores o páginas de nuestro sitio web.
+
+También puede resultar de utilidad combinarlo con los recursos de Bootstrap y su gran hoja CSS con clases YA CREADAS, simplemente has de investigar un poco en su documentación que hace cada cosa y así te ahorrarás una cantidad de tiempo enorme.
+
+Por último, si queremos que toda nuestra estructura de contenedores y filas "encaje" deberemos utilizar la propiedad "box-sizing:box". En clase no hemos recibido una mayor explicaciób de sus usos.
+
+
+DISEÑO RESPONSIVE
+
+
+Este diseño nos permite adaptar el formato en el que se verá nuestro sitio web según la pantalla del dispositivo (por ejemplo, si tenemos un smartphone habrá filas que quedarán muy compactas y si tenemos una televisión gigante puede que la integridad se vea afectada.)
+
+Para evitar esto utilizaremos la propiedad "media query", la cual nos permite aplicar ciertos atributos o estilos según el tamaño de nuestra pantalla, así podremos trastear según el tipo de pantalla y adaptar nuestro html según nos sea conveniente.
+
+Para delimitar el tamaño del dispositivo al que queremos modificar lo único que deberemos hacer es cambiar el tamaño (en pixeles o en la medida de preferencia) al lado de la propiedad media query, todo lo que se escriba a partir de ahí influirá a ese tipo de visualización en específico.
+
 
 
 
@@ -468,6 +496,15 @@ Ahora hablaremos de las ramas de desarrollo. Cuanto estes editando un archivo es
 tu eres el único capaz de modificar ese archivo y hacer los cambios pertinentes. Si quieres que varias personas colaboren en tu archivo 
 deberás modificar la rama de desarrollo para que varias personas también puedan influir en tu trabajo. Como he dicho antes si tienes el 
 archivo en privado la opción de modificar la rama estará desabilitada y solo podrás trabajar en "main".
+
+
+
+
+
+
+
+
+
 
 
 
