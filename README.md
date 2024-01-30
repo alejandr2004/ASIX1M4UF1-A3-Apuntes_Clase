@@ -197,11 +197,11 @@ se hace escribiendo una barra / y el nombre de la etiqueta (cabe resaltar que ta
 Ahora que sabemos como se estructura un archivo html hablaremos de sus diversas etiquetas. Comenzaremos con un elemento que también se 
 hallaba en Markdown:las listas.
 
-Estas pueden ser tanto ordenadas <ol> como desordenadas <ul>.Lo bueno de html es que conforme vayas escribiendo dentro de las etiquetas 
+Estas pueden ser tanto ordenadas ol como desordenadas ul.Lo bueno de html es que conforme vayas escribiendo dentro de las etiquetas 
 este se encargará de numerar u ordenar automáticamente.Ahora explicaré la diferencia entre ambas:
-Las listas ordenadas <ol> *se encargarán de numerar* los ítems que haya dentro de una lista a partir del 1 de forma progresiva (1,2,3,
-4...) mientras que las desordenadas <ul> *las marca con guiones o puntos*.
-Es necesario aclarar que los ítems de una lista se establecerán con <li> (list items) que serán hijas de <ol> o <ul> (el concepto de 
+Las listas ordenadas ol *se encargarán de numerar* los ítems que haya dentro de una lista a partir del 1 de forma progresiva (1,2,3,
+4...) mientras que las desordenadas ul *las marca con guiones o puntos*.
+Es necesario aclarar que los ítems de una lista se establecerán con li (list items) que serán hijas de ol o ul (el concepto de 
 hijo y descendiente lo explicaré más adelante).
 Ejemplo de lista:
 ```
@@ -486,7 +486,7 @@ Estas estructuras son muy útiles para crear páginas web más serias y bien est
 
 También puede resultar de utilidad combinarlo con los recursos de Bootstrap y su gran hoja CSS con clases YA CREADAS, simplemente has de investigar un poco en su documentación que hace cada cosa y así te ahorrarás una cantidad de tiempo enorme.
 
-Por último, si queremos que toda nuestra estructura de contenedores y filas "encaje" deberemos utilizar la propiedad "box-sizing:box". En clase no hemos recibido una mayor explicaciób de sus usos.
+Por último, si queremos que toda nuestra estructura de contenedores y filas "encaje" deberemos utilizar la propiedad "box-sizing:box". En clase no hemos recibido una mayor explicación de sus usos.
 
 Este diseño nos permite adaptar el formato en el que se verá nuestro sitio web según la pantalla del dispositivo (por ejemplo, si tenemos un smartphone habrá filas que quedarán muy compactas y si tenemos una televisión gigante puede que la integridad se vea afectada.)
 
